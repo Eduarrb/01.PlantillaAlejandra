@@ -24,9 +24,105 @@ article #bloque1, article #bloque2
 	margin: 0 0.6em 0 1.5em;
 
 }
+article #bloque1 .caja .head
+{
+	font-size: 1.1em;
+}
+article #bloque1 .caja p
+{
+	font-size: 0.8em;
+}
+article #bloque1 .caja p span
+{
+	font-style: italic;
+}
 article #bloque2
 {
 	position: absolute;
+}
+/*article #bloque2 #evento1 .datos
+{
+	margin-top: 1em;
+}*/
+article #bloque2 #evento1 .fecha, article #bloque2 #evento1 .datos
+{
+	display: inline-block;
+}
+article #bloque2 #evento1
+{
+	position: relative;
+}
+article #bloque2 #evento1 .datos
+{
+	margin-left: 5.5em;
+	margin-top: 0.5em;
+}
+article #bloque2 #evento1 .datos p
+{
+	margin: 0;
+	font-size: 0.8em;
+}
+article #bloque2 #evento1 .fecha
+{
+	background: #CFB486;
+	padding: 10px 10px 10px 10px;
+	position: absolute;
+	top: 0.2em;
+	width: 50px;
+	
+	
+}
+article #bloque2 #evento1 .fecha p
+{
+	color: #3D2D12;
+	font-size: 1.1em;
+	text-align: center;
+	margin: 0;
+}
+article #bloque2 #evento1 .fecha p span
+{
+	font-size: 1.6em;
+}
+article #bloque2 #evento2
+{
+	position: relative;
+	margin-top: 3em;
+}
+article #bloque2 #evento2 .datos
+{
+	margin-left: 5.5em;
+	margin-top: 0.5em;
+}
+article #bloque2 #evento2 .datos p
+{
+	margin: 0;
+	font-size: 0.8em;
+	padding-top: 0.5em;
+}
+article #bloque2 #evento2 .fecha
+{
+	background: #CFB486;
+	padding: 10px 10px 10px 10px;
+	position: absolute;
+	top: 0.2em;
+	width: 50px;
+	
+	
+}
+article #bloque2 #evento2 .fecha p
+{
+	color: #3D2D12;
+	font-size: 1.1em;
+	text-align: center;
+	margin: 0;
+}
+article #bloque2 #evento2 .fecha p span
+{
+	font-size: 1.6em;
+}
+article #bloque2 .head
+{
+	font-size: 1.1em;
 }
 article .caja
 {
@@ -38,7 +134,7 @@ article .caja .head
 {
 	border-bottom: 1px solid #E7D3B1;
 	color: #E7D3B1;
-	font-size: 1.1em;
+	font-size: 2em;
 	padding-bottom: 0.5em
 }
 body
@@ -61,7 +157,10 @@ header nav ul li
 	display: inline-block;
 	list-style: none;
 	margin-left: 6em;
-	
+}
+header nav ul li a
+{
+	padding: 0.5em 0 0.5em 0;
 }
 header nav ul #home a
 {
