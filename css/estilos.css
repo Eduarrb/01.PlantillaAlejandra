@@ -1,0 +1,53 @@
+/**
+{
+	border: 1px dotted blue;
+}*/
+a
+{
+	text-decoration: none;
+	color: white;
+}
+body
+{
+	background: #070606;
+	font-family: "Open Sans";
+	
+}
+header, section, footer
+{
+	margin: 0 auto;
+	width: 70%;
+}
+header nav ul
+{
+	padding: 0;
+}
+header nav ul li 
+{
+	display: inline-block;
+	list-style: none;
+	margin-left: 6em;
+	
+}
+header nav ul #nombre
+{
+	margin-left: 0;
+}
+header nav ul #nombre span 
+{
+	color: #E7D3B1;
+	margin-right: 1em;
+}
+p
+{
+	color: white;
+}
+section figure img 
+{
+	width: 100%;
+	
+}
+section figure
+{
+	margin: 0;
+}
