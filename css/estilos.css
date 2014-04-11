@@ -11,18 +11,20 @@ article
 {
 	border: 1px solid #83674B;
 	border-radius: 0.5em;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
 	position: absolute;
-	width: 720px;
+	right: 0;
 	top: 25em;
-	left: 7.5em;
+	width: 80%;
 }
 
 article #bloque1, article #bloque2
 {
 	display: inline-block;
-	width: 44%;
 	margin: 0 0.6em 0 1.5em;
-
+	width: 44%;
 }
 article #bloque1 .caja .head
 {
@@ -106,8 +108,6 @@ article #bloque2 #evento2 .fecha
 	position: absolute;
 	top: 0.2em;
 	width: 50px;
-	
-	
 }
 article #bloque2 #evento2 .fecha p
 {
@@ -142,6 +142,10 @@ body
 	background: #070606;
 	font-family: "Open Sans";
 	
+}
+section
+{
+	margin: 0 auto;
 }
 header, section, footer
 {
@@ -211,4 +215,19 @@ section figure img
 section figure
 {
 	margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+	header{
+		width:98%;
+		font-size: 1em;
+	}
+	section
+	{
+		width: 98%;
+	}
+	footer
+	{
+		width: 98%;
+	}
 }
