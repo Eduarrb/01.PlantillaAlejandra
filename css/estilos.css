@@ -304,3 +304,28 @@ section figure
 		width: 98%;
 	}
 }
+@media screen and (max-width:768px){
+	header{
+		width:98%;
+		font-size: 1em;
+	}
+	section
+	{
+		/*display: block;*/
+
+	}
+	section article
+	{
+		/*position: static;*/
+	}
+	section article #bloque2
+	{
+		width: 42%;
+	}
+	footer
+	{
+		width: 98%;
+		margin-top: 9em;
+		position: absolute;
+	}
+}
